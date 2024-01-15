@@ -1,0 +1,58 @@
+p {
+  background-color: aqua;
+  width: 200px;
+  height: 150px;
+}
+
+h1 {
+  background-color: coral;
+  padding: 40px;
+}
+
+h2 {
+  background-color: blueviolet;
+  margin: 50px;
+}
+
+h3 {
+  /* teste com padding */
+  font-size: 20;
+  background-color: aqua;
+  width: 220px;
+  height: 120px;
+  padding: 50px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: red;
+}
+
+h4 {
+  /* teste com marging */
+  font-size: 20;
+  background-color: chartreuse;
+  width: 220px;
+  height: 120px;
+  margin: 50px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red;
+}
+
+.box_aberracao {
+  background-color: yellow;
+  border-top: 5px solid blue;
+  border-right: 7px dotted red;
+  border-bottom: 9px double green;
+  border-left: 10px dashed orange;
+}
+
+.borderXoutline {
+  /* ouline e fora da box - border é no limite do elemento*/
+  outline: 15px solid pink;
+  border: 15px solid blue;
+}
+
+.testeJS {
+  margin: auto;
+  text-align: center;
+}
