@@ -1,0 +1,24 @@
+p {
+  color: green;
+  text-align: center;
+  font-size: 60px;
+  font-family: sans-serif;
+  text-decoration: overline;
+  background-color: aquamarine;
+}
+
+body {
+  background-color: bisque;
+}
+
+.segundo_titulo {
+  color: blueviolet;
+}
+
+#terceiro_titulo {
+  color: coral;
+}
+
+h2 {
+  text-align: right;
+}
