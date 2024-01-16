@@ -1,0 +1,30 @@
+.img-logo {
+  width: 500px;
+}
+
+body {
+  background-color: gray;
+  font-size: 22px;
+  font-family: sans-serif;
+  width: 700px;
+  margin: auto;
+
+  background-image: url(../IMG/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right bottom;
+}
+
+.img-html {
+  float: left;
+}
+
+.img-css {
+  float: right;
+}
+
+.p_img {
+  text-align: justify;
+  line-height: 50px;
+}

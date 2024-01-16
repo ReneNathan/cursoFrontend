@@ -1,0 +1,45 @@
+ol li {
+  background-color: aqua;
+  list-style: upper-latin;
+}
+
+#menu_principal {
+  /*background-color: aquamarine; */
+  list-style: none;
+  text-align: center;
+  padding: 50px;
+}
+
+#menu_principal li {
+  display: inline-block;
+  border: 2px;
+  border-color: red;
+}
+
+#menu_principal a {
+  text-decoration: none;
+  background-color: #d6dede;
+  padding: 20px;
+  border: 10px;
+  border-color: #d6dede;
+  border-style: outset;
+  color: black;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#menu_principal a:hover {
+  background-color: burlywood;
+  border-color: burlywood;
+}
+
+#menu_principal a:visited {
+  border-style: inset;
+  color: rgb(87, 87, 143);
+}
+
+#menu_principal a:active {
+  border-style: inset;
+}

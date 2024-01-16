@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(212, 214, 216);
+  background-image: url(../IMG/Projeto_1_Estruturacao/bg-1.jpg);
+  background-size: 100% 520px;
+  background-repeat: no-repeat;
+  font-family: serif;
+}
+
+.menu {
+  /*background-color: aqua; */
+  list-style: none;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  color: orange;
+  border: 1px;
+  border-color: white;
+  border-style: groove;
+  margin-right: 5px;
+}
+
+.menu a {
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 1);
+  font-weight: bolder;
+}
+
+#titulosite {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+#subtitulo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 90px;
+  font-size: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-decoration: underline;
+}
+
+.conteudoSite {
+  margin-top: 170px;
+}
+
+.conteudoSite article {
+  background-color: white;
+  display: block;
+  width: 90%;
+  text-align: justify;
+  padding: 10px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudoSite h1 {
+  background-color: rgb(197, 195, 195);
+  padding: 15px;
+}
+
+.conteudoSite footer {
+  background-color: rgb(167, 163, 163);
+  padding: 10px;
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+
+.footerfinal {
+  background-color: rgb(44, 43, 43);
+  /*
+  color: white;
+  padding: 50px;
+  width: auto;
+  float: none;
+  margin: 0%;
+  position: relative;
+  */
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  margin-top: 100px;
+  left: 50%;
+  text-align: center;
+}
+
+.footerfinal p {
+  color: white;
+  padding-top: 50px;
+  font-size: 20px;
+}
